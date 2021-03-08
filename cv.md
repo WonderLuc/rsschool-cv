@@ -75,3 +75,18 @@ function qsort(arr){
     * **Job responsibilities:** Advising the company's clients on working in products, helping them fill out documentation, and Keeping the knowledge base up-to-date
 
     * **Achievements:** Became the best employee within my workgroup
+You may see some of my projects below [the link](https://github.com/WonderLuc/projects).
+
+## Education
+* General Practitioner -Ural State Medical University
+* Web Development
+    * Free Code Camp
+    * Codecademy
+    * SoloLearn
+
+## Languages
+* Russian - Native
+* English - B1
+    * IT, English, and Entrepreneurship skills - Advance through English US program 
+    
+

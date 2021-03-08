@@ -48,3 +48,30 @@ A web developer that passionate about the work process. I like doing helpful stu
 * Visual Studio Code
 * Google Docs
 
+## Example of My Code
+It's a quick sort algorithm based on Javascript
+
+```
+function qsort(arr){
+    if( arr.length < 2){
+        return arr;
+    }else{
+        let pivot = arr[Math.floor(arr.length/2)];
+        let less = arr.filter(num =>{ return num < pivot });
+        let greater = arr.filter(num =>{ return num > pivot })
+        return [...qsort(less), pivot, ...qsort(greater)];
+    }
+}
+
+```
+## Experience
+* ### SEO specialist
+    * **Job responsibilities:** Analysis of the site and the competitive environment, collecting the semantic core, Coordinating work with the customer, technical improvements to the site, SEO, assistance in improving the site's conversion rate, meetings with the customer, conflict resolution, coordinating and supervising multiple copywriters, collecting Analytics, reporting.
+
+    * **Achievements:**  Increased the speed of individual works by 15 times.
+    Contributed to the company's PR and increased the client's life cycle.
+    Took an active part in the development of corporate culture.
+* ### Technical support consultant
+    * **Job responsibilities:** Advising the company's clients on working in products, helping them fill out documentation, and Keeping the knowledge base up-to-date
+
+    * **Achievements:** Became the best employee within my workgroup

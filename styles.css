@@ -1,0 +1,154 @@
+body{
+  width:100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat",sans-serif;
+  background-color: whitesmoke;
+  --main-gray:#283136;
+  --second-gray:#3D484E;
+  --main-white:#FEF9F5;
+  
+}
+
+.wrapper{
+  display: flex;
+  align-items: stretch;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--main-white);
+}
+
+aside{
+  width:33%;
+  color: white;
+  background-color: var(--second-gray);
+  
+}
+
+/* Styles for introducing section with photo and name*/
+.introducing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  background-color: var(--main-gray);
+}
+.introducing__photo{
+  width: 200px;
+  clip-path: circle( 100px at center);
+}
+
+.introducing__name{
+  margin:-15px 5px;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.introducing__title{
+  margin: 30px;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+  
+}
+
+/*Styles for signature block */
+.signature{
+  display: flex;
+  align-items: center;
+  margin: 0; 
+}
+
+.signature img{
+  margin: 20px;
+}
+
+.signature figcaption{
+  font-size: 1.2rem;
+}
+.signature h2{font-weight: normal;}
+.signature_small h2{font-size: 1.2rem;}
+ 
+/*About me section*/
+.about-me p{
+  margin: 0;
+  padding: 20px;
+  padding-top: 0;
+  text-align: left;
+}
+
+/*Contacts section*/
+.contacts-list{
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  list-style: none;
+}
+
+.contacts-list__contact{margin: -10px 0;}
+.contacts-list__contact:last-child{margin-bottom: 20px;}
+
+.contacts-list__contact a{
+  text-decoration: none;
+  color: white;
+}
+.contacts-list__contact a:hover{color:darkorange;}
+
+/*Skills section*/
+.skills-list{
+  margin: 0;
+  margin-top: -35px;
+  padding: 20px;
+  list-style: none;
+}
+/*Styles for expirience, education, and languages sections*/
+main{
+  width: 66%;
+  background-color: var(--main-white);
+}
+
+/*Experience section*/
+.experience .signature{margin-left: 20px;}
+
+/*Styles for Job block*/
+.job{
+  padding: 20px 40px;
+  padding-top: 0;
+}
+.job__text span{
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*Example of code*/
+.projects-link, .or, .ref-to-code{ 
+  padding: 20px 40px;
+  margin: 0;
+}
+
+.or{ text-align: center;}
+
+.code{
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: var(--main-gray);
+}
+code{
+  position: relative;
+  left:10%;
+  color: white;
+}
+.code span{ color: green;}
+
+/*Education Section*/
+.education{
+  margin-top: 20px;
+}
+
+.education .job{
+  padding-bottom: 0;
+}

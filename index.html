@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Alexandr Dostovalov - CV</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <aside>
+      <section class="introducing">
+        <img class="introducing__photo" src="./public/me.jpg" alt="Me :)">
+        <h2 class="introducing__name">Alexandr Dostovalov</h2>
+        <h3 class="introducing__title">Web Developer</h3>
+      </section>
+      <section class="about-me">
+        <figure class="signature">
+          <img src="./public/AboutMe Icon.png" alt="icon">
+          <figcaption><h2>About Me</h2></figcaption>
+        </figure>
+        <p>A web developer that passionate about the work process. I like doing helpful stuff based on web technologies. I like learning new, working hard, and seeing the smile on people's faces when my work helps them be more effective. I open to new suggestions, so just write me.</p>
+      </section>
+      <section class="contacts">
+        <figure class="signature">
+          <img src="./public/Contacts Icon.png" alt="icon">
+          <figcaption><h2>Contacts</h2></figcaption>
+        </figure>
+        <ul class="contacts-list">
+          <li class="contacts-list__contact">
+            <figure class="signature signature_small">
+              <img src="./public/Phone Icon.png" alt="icon">
+              <figcaption>
+                <h2>+7 (982)740 9561</h2>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="contacts-list__contact">
+            <figure class="signature signature_small">
+              <img src="./public/Email Icon.png" alt="icon">
+              <figcaption>
+                <h2><a href="mailto:workmaildo@yandex.ru">workmaildo@yandex.ru</a></h2>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="contacts-list__contact">
+            <figure class="signature signature_small">
+              <img src="./public/Telegram Icon.png" alt="icon">
+              <figcaption>
+                <h2>@WonderLuc</h2>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+      <section class="skills"> 
+        <figure class="signature">
+          <img src="./public/Skills Icon.png" alt="icon">
+          <figcaption><h2>Skills</h2></figcaption>
+        </figure>
+        <ul class="skills-list">
+          <li class="skills-list__area">
+            <h4>Technologies</h4>
+            <p>HTML 5, CSS 3, SASS, Bootstrap, Javascript,Handlebars.js, React, Redux, Vue, Vue, Jest, Node JS, Webpack, Express, SQLi, G, Basics of Ba, Basics of Pyth, Basics of Java.</p>
+          </li>
+          <li class="skills-list__area">
+            <h4>Other skill areas</h4>
+            <p>SWOT analysis, A/B testing, competitive environment Analysis, SEO, contextual and targeted advertising, negotiation, presentation Skills.</p>
+          </li>
+          <li class="skills-list__area">
+            <h4>Instruments</h4>
+            <p>Figma, Visual Studio Code, Google Docs</p>
+          </li>
+        </ul>
+      </section>
+    </aside>
+    <main>
+      <section class="experience">
+        <figure class="signature">
+          <img src="./public/Progress Icon.png" alt="icon">
+          <figcaption><h2>Experience</h2></figcaption>
+        </figure>
+        <article class="job">
+          <h2 class="job__title">SEO specialist</h2>
+          <p class="job__text"><span>Job responsibilities:</span> Analysis of the site and the competitive environment, collecting the semantic core, Coordinating work with the customer, technical improvements to the site, SEO, assistance in improving the site's conversion rate, meetings with the customer, conflict resolution, coordinating and supervising multiple copywriters, collecting Analytics, reporting</p>
+          <p class="job__text"><span>Achievements:</span>  Increased the speed of individual works by 15 times.
+            Contributed to the company's PR and increased the client's life cycle.
+            Took an active part in the development of corporate culture.</p>
+        </article>
+        <article class="job">
+          <h2 class="job__title">Technical support consultant</h2>
+          <p class="job__text"><span>Job responsibilities:</span> Advising the company's clients on working in products, helping them fill out documentation, and Keeping the knowledge base up-to-date</p>
+          <p class="job__text"><span>Achievements:</span> Became the best employee within my workgroup</p>
+        </article>
+        <h3 class="projects-link">You may see some of my projects below <a href="https://github.com/WonderLuc/projects" target="_blank">the link</a></h3>
+        <h2 class="or">OR</h2>
+        <h3 class="ref-to-code">See example of code:</h3>
+        <div class="code">
+          <code>
+            <span>// It's a quick sort algorithm based on Javascript</span><br>
+            function qsort(arr){<br>
+            &nbsp; if( arr.length &lt; 2){<br>
+              &nbsp;&nbsp; return arr;<br>
+              &nbsp; }else{<br>
+                &nbsp;&nbsp;  let pivot = arr[Math.floor(arr.length/2)];<br>
+                &nbsp;&nbsp; let less = arr.filter(num =>{ return num &lt; pivot });<br>
+                &nbsp;&nbsp; let greater = arr.filter(num =>{ return num &gt; pivot });<br>
+                &nbsp;&nbsp; return [...qsort(less), pivot, ...qsort(greater)];<br>
+           &nbsp;   }<br>
+          }<br>
+          </code>
+        </div>
+      </section>
+      <section class="education">
+        <figure class="signature">
+          <img src="./public/Education Icon.png" alt="icon">
+          <figcaption><h2>Education</h2></figcaption>
+        </figure>
+        <article class="job">
+          <h2 class="job__title">General Practitioner</h2>
+          <p class="job__text">Ural State Medical University</p>
+        </article>
+        <article class="job">
+          <h2 class="job__title">Web Developer</h2>
+         <ul>
+           <li>Free Code Camp</li>
+           <li>Codecademy</li>
+           <li>SoloLearn</li>
+         </ul>
+        </article>
+      </section>
+      <section class="languages">
+        <figure class="signature">
+          <img src="./public/Additional education Icon.png" alt="icon">
+          <figcaption><h2>Languages</h2></figcaption>
+        </figure>
+        <article class="job">
+          <h2 class="job__title">English - B2</h2>
+          <p class="job__text"><span>IT, English, and Entrepreneurship skills</span> - Advance through English US program </p>
+        </article>
+        <article class="job">
+          <h2 class="job__title">Russian - Native</h2>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

@@ -86,6 +86,7 @@ aside{
 }
 
 .contacts-list__contact{margin: -10px 0;}
+.contacts-list__contact:last-child{margin-bottom: 20px;}
 
 .contacts-list__contact a{
   text-decoration: none;
@@ -93,6 +94,13 @@ aside{
 }
 .contacts-list__contact a:hover{color:darkorange;}
 
+/*Skills section*/
+.skills-list{
+  margin: 0;
+  margin-top: -10px;
+  padding: 20px;
+  list-style: none;
+}
 main{
   width: 60%;
 }

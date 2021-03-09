@@ -16,6 +16,7 @@ body{
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  background-color: var(--main-white);
 }
 
 aside{
@@ -122,6 +123,7 @@ main{
   font-size: 1.2rem;
 }
 
+/*Example of code*/
 .projects-link, .or, .ref-to-code{ 
   padding: 20px 40px;
   margin: 0;
@@ -141,3 +143,12 @@ code{
   color: white;
 }
 .code p{ color: green;}
+
+/*Education Section*/
+.education{
+  margin-top: 20px;
+}
+
+.education .job{
+  padding-bottom: 0;
+}

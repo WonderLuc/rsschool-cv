@@ -58,7 +58,7 @@ function qsort(arr){
     }else{
         let pivot = arr[Math.floor(arr.length/2)];
         let less = arr.filter(num =>{ return num < pivot });
-        let greater = arr.filter(num =>{ return num > pivot })
+        let greater = arr.filter(num =>{ return num > pivot });
         return [...qsort(less), pivot, ...qsort(greater)];
     }
 }

@@ -76,7 +76,44 @@
         </ul>
       </section>
     </aside>
-    <main></main>
+    <main>
+      <section class="experience">
+        <figure class="signature">
+          <img src="./public/Progress Icon.png" alt="icon">
+          <figcaption><h2>Experience</h2></figcaption>
+        </figure>
+        <article class="job">
+          <h2 class="job__title">SEO specialist</h2>
+          <p class="job__text"><span>Job responsibilities:</span> Analysis of the site and the competitive environment, collecting the semantic core, Coordinating work with the customer, technical improvements to the site, SEO, assistance in improving the site's conversion rate, meetings with the customer, conflict resolution, coordinating and supervising multiple copywriters, collecting Analytics, reporting</p>
+          <p class="job__text"><span>Achievements:</span>  Increased the speed of individual works by 15 times.
+            Contributed to the company's PR and increased the client's life cycle.
+            Took an active part in the development of corporate culture.</p>
+        </article>
+        <article class="job">
+          <h2 class="job__title">Technical support consultant</h2>
+          <p class="job__text"><span>Job responsibilities:</span> Advising the company's clients on working in products, helping them fill out documentation, and Keeping the knowledge base up-to-date</p>
+          <p class="job__text"><span>Achievements:</span> Became the best employee within my workgroup</p>
+        </article>
+        <h3 class="projects-link">You may see some of my projects below <a href="https://github.com/WonderLuc/projects" target="_blank">the link</a></h3>
+        <h2 class="or">OR</h2>
+        <h3 class="ref-to-code">See example of code:</h3>
+        <div class="code">
+          <code>
+            <p>// It's a quick sort algorithm based on Javascript</p>
+            function qsort(arr){<br>
+            &nbsp if( arr.length &lt 2){<br>
+              &nbsp&nbsp return arr;<br>
+              &nbsp }else{<br>
+                &nbsp&nbsp  let pivot = arr[Math.floor(arr.length/2)];<br>
+                &nbsp&nbsp let less = arr.filter(num =>{ return num &lt pivot });<br>
+                &nbsp&nbsp let greater = arr.filter(num =>{ return num &gt pivot });<br>
+                &nbsp&nbsp return [...qsort(less), pivot, ...qsort(greater)];<br>
+           &nbsp   }<br>
+          }<br>
+          </code>
+        </div>
+      </section>
+    </main>
   </div>
 </body>
 </html>

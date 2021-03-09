@@ -142,7 +142,7 @@ code{
   left:10%;
   color: white;
 }
-.code p{ color: green;}
+.code span{ color: green;}
 
 /*Education Section*/
 .education{

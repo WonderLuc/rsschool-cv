@@ -99,16 +99,16 @@
         <h3 class="ref-to-code">See example of code:</h3>
         <div class="code">
           <code>
-            <p>// It's a quick sort algorithm based on Javascript</p>
+            <span>// It's a quick sort algorithm based on Javascript</span><br>
             function qsort(arr){<br>
-            &nbsp if( arr.length &lt 2){<br>
-              &nbsp&nbsp return arr;<br>
-              &nbsp }else{<br>
-                &nbsp&nbsp  let pivot = arr[Math.floor(arr.length/2)];<br>
-                &nbsp&nbsp let less = arr.filter(num =>{ return num &lt pivot });<br>
-                &nbsp&nbsp let greater = arr.filter(num =>{ return num &gt pivot });<br>
-                &nbsp&nbsp return [...qsort(less), pivot, ...qsort(greater)];<br>
-           &nbsp   }<br>
+            &nbsp; if( arr.length &lt; 2){<br>
+              &nbsp;&nbsp; return arr;<br>
+              &nbsp; }else{<br>
+                &nbsp;&nbsp;  let pivot = arr[Math.floor(arr.length/2)];<br>
+                &nbsp;&nbsp; let less = arr.filter(num =>{ return num &lt; pivot });<br>
+                &nbsp;&nbsp; let greater = arr.filter(num =>{ return num &gt; pivot });<br>
+                &nbsp;&nbsp; return [...qsort(less), pivot, ...qsort(greater)];<br>
+           &nbsp;   }<br>
           }<br>
           </code>
         </div>

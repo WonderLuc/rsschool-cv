@@ -50,6 +50,8 @@ A web developer that passionate about the work process. I like doing helpful stu
 
 ## Example of My Code
 It's a quick sort algorithm based on Javascript
+> OR
+You may see some of my projects below [the link](https://github.com/WonderLuc/projects).
 
 ```
 function qsort(arr){
@@ -75,7 +77,7 @@ function qsort(arr){
     * **Job responsibilities:** Advising the company's clients on working in products, helping them fill out documentation, and Keeping the knowledge base up-to-date
 
     * **Achievements:** Became the best employee within my workgroup
-You may see some of my projects below [the link](https://github.com/WonderLuc/projects).
+
 
 ## Education
 * General Practitioner -Ural State Medical University
